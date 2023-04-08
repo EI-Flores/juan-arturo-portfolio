@@ -27,13 +27,13 @@ export const skills = [
   },
   {
     title: "Version Control",
-    skillName: "GitHub",
+    skillName: "GitHub, Git",
     color: "7",
     percentage: "70",
   },
   {
     title: "Editor",
-    skillName: "VS Code",
+    skillName: "VS Code, PyCharm",
     color: "6",
     percentage: "80",
   },
