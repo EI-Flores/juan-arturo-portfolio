@@ -1,7 +1,7 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
+  "I'm Juan Arturo, I have a master's degree in Applied Computing with experience in the use of Python and User Experience. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "Apart from writing code, I love to read, listen to music and cook.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
 ];
@@ -9,45 +9,33 @@ export const bio = [
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, TypeScript",
+    skillName: "Python",
     color: "1",
     percentage: "80",
   },
   {
     title: "Frameworks/Libraries",
-    skillName: "Angular, Rxjs, Ngxs",
+    skillName: "DJango, Pandas, Numpy, Scikit-Learn",
     color: "6",
-    percentage: "70",
+    percentage: "88",
   },
   {
     title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    skillName: "HTML",
     color: "4",
     percentage: "70",
   },
   {
     title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
+    skillName: "GitHub",
     color: "7",
     percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Postman, Chrome DevTools",
-    color: "3",
-    percentage: "80",
-  },
-  {
-    title: "Analytics",
-    skillName: "CleverTap, Countly",
-    color: "5",
-    percentage: "50",
   },
   {
     title: "Editor",
     skillName: "VS Code",
     color: "6",
-    percentage: "70",
+    percentage: "80",
   },
 ];
 
