@@ -142,57 +142,52 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Dirección Integral Familiar del Estado de Veracruz",
+    duration: "Jan 2009 - Jan 2010",
+    subtitle: "Fullstack Developer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Maintenance and updating of the Veracruz State DIF website."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["JavaScript", , "Bootstrap",  "HTML5" , "Flash"],
     icon: "heartbeat",
   },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+ 
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
+    title: "Master in Applied Computing",
     duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    subtitle: "Laboratorio Nacional de Informática Avanzada A.C.",
+    details: [
+      "I successfully qualified graduated in 2023, demonstrating my aptitude and expertise in the field.",
+      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
+      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+    ],
+    tags: [
+      "Electronic",
+      "Java",
+      "Processing",
+      "instrumentation electronics",
+      "Compiler Designing",
+    ],
+    icon: "graduation-cap",
+  },
+  {
+    title: "Bachelors in Electronic Engineering",
+    duration: "",
+    subtitle: "Instituto Tecnológico Superior de Xalapa",
     details: [
       "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
       "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
       "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
     ],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
+      "Electronic",
+      "Java",
+      "Processing",
+      "instrumentation electronics",
       "Compiler Designing",
-      "Cloud Computing",
     ],
     icon: "graduation-cap",
   },
