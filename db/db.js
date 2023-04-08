@@ -43,7 +43,7 @@ export const projects = {
   disclaimer:
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
   webProjects: [
-    {
+    /*{
       projectName: "Programming Diaries",
       image: "images/programmingdiaries.png",
       summary:
@@ -74,10 +74,10 @@ export const projects = {
         "Browser based editor to build and download Resumes in a customizable templates.",
       preview: "https://vinaysomawat.github.io/Resume-Builder",
       techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
+    },*/
   ],
   softwareProjects: [
-    {
+    /*{
       projectName: "Pizza Ordering ChatBot",
       image: "images/pizzaorderchatbot.png",
       summary:
@@ -100,10 +100,10 @@ export const projects = {
         "GUI to transfer data to excel sheets and generate bills on the local shops.",
       preview: "https://github.com/vinaysomawat/Bill-Generator",
       techStack: ["Tkinter", "Openxlpy", "Python"],
-    },
+    },*/
   ],
   androidProjects: [
-    {
+    /*{
       projectName: "NITW-CSE",
       image: "images/nitwcse.jpg",
       summary:
@@ -118,10 +118,10 @@ export const projects = {
         "The Application display the webpages of website careerhigh.in in android devices.",
       preview: "https://github.com/vinaysomawat/CareerHigh-Android",
       techStack: ["JAVA", "XML", "Android"],
-    },
+    },*/
   ],
   freelanceProjects: [
-    {
+    /*{
       projectName: "SnylloAir.com",
       image: "images/snylloair.png",
       summary:
@@ -136,7 +136,7 @@ export const projects = {
       preview:
         "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
       techStack: ["Android", "JAVA", "Play Store"],
-    },
+    },*/
   ],
 };
 
