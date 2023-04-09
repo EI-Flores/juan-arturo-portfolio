@@ -1,8 +1,8 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Juan Arturo, I have a master's degree in Applied Computing with experience in the use of Python and User Experience. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from writing code, I love to read, listen to music and cook.",
-  "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
+  "I'm Juan Arturo, I have a master's degree in Applied Computing with experience in the use of Python and User Experience. I have a passion for all technological things and I consider myself a curious and enthusiastic developer.",
+  "ABesides writing code, I love to read, listen to music, and cook.",
+  "As a lifelong learner, I'm always for the seek of new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
 ];
 
