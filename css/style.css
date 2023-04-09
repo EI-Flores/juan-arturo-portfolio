@@ -2253,11 +2253,11 @@ span {
 }
 
 .form-container {
-	background-color: transparent;
+	background-color: #f9bf3f;
 	border: 1px solid #ddd;
 	padding: 20px;
 	border-radius: 5px;
-	width: 400px;
+	width: 600px;
 	margin: auto;
   }
   
@@ -2269,6 +2269,7 @@ span {
 	display: block;
 	margin-bottom: 5px;
 	font-weight: bold;
+	color: #000;
   }
   
   input[type="text"],
@@ -2286,6 +2287,10 @@ span {
   textarea {
 	height: 100px; /* Aquí establecemos la altura fija */
 	resize: none;
+  }
+
+  h2 {
+	color: black;
   }
   
   button[type="submit"] {
