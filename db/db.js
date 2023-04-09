@@ -149,7 +149,7 @@ export const experience = [
       "Maintenance and updating of the Veracruz State DIF website."
       "Creator of the web system <q>Puertas abiertas en línea</q> <em>PAE</em>, whose objective was citizen attention to the population of the municipalities of the State of Veracruz."
     ],
-    tags: ["JavaScript", , "Bootstrap",  "HTML5" , "Flash"],
+    tags: ["HTML5" , "Flash", "CSS"],
     icon: "heartbeat",
   },
  
