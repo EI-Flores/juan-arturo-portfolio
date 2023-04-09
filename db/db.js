@@ -191,17 +191,6 @@ export const education = [
     ],
     icon: "graduation-cap",
   },
-  {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
-    ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
-  },
 ];
 
 export const footer = [
