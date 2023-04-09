@@ -253,28 +253,9 @@ export const footer = [
   },
 ];
 
-const gitUserName = "vinaysomawat";
+const gitUserName = "ei-flores";
 const mediumUserName = "vinaysomawat";
 
 export const URLs = {
   mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
-};
-
-export const special = {
-  label: "Mode",
-    data: [
-      {
-        text: "Dark/Light Mode",
-        func: "enableDarkMode()",
-      },
-      {
-        text: "Print this page",
-        func: "window.print()",
-      },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
-    ]
-
 };
