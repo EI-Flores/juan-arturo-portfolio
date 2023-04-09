@@ -232,7 +232,7 @@ export const footer = [
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/ei-flores/",
       },
       /*{
         text: "Twitter",
