@@ -170,7 +170,7 @@ export const education = [
       "Mexican Sign Language",
       "UX",
       "Python",
-      "leaf people",
+      "Leaf People",
     ],
     icon: "graduation-cap",
   },
