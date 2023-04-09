@@ -41,7 +41,7 @@ export const skills = [
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
+    "*** Many the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
   webProjects: [
     /*{
       projectName: "Programming Diaries",
