@@ -146,8 +146,8 @@ export const experience = [
     duration: "Jan 2009 - Jan 2010",
     subtitle: "Fullstack Developer",
     details: [
-      "Maintenance and updating of the Veracruz State DIF website."
-      "Creator of the web system <q>Puertas abiertas en línea</q> <em>PAE</em>, whose objective was citizen attention to the population of the municipalities of the State of Veracruz."
+      "Maintenance and updating of the Veracruz State DIF website.",
+      "Creator of the web system <q>Puertas abiertas en línea</q> <em>PAE</em>, whose objective was citizen attention to the population of the municipalities of the State of Veracruz.",
     ],
     tags: ["HTML5" , "Flash", "CSS"],
     icon: "heartbeat",
