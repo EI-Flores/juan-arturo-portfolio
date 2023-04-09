@@ -255,7 +255,7 @@ export const footer = [
 ];
 
 const gitUserName = "ei-flores";
-const mediumUserName = "ing.flores.rivera";
+const mediumUserName = "@ing.flores.rivera";
 
 export const URLs = {
   mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
