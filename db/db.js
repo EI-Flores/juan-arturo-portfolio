@@ -142,7 +142,7 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Dirección Integral Familiar del Estado de Veracruz",
+    title: "DIF Estatal de Veracruz",
     duration: "Jan 2009 - Jan 2010",
     subtitle: "Fullstack Developer",
     details: [
@@ -208,18 +208,18 @@ export const footer = [
   {
     label: "Dev Profiles",
     data: [
-      {
+      /*{
         text: "Stackoverflow",
         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
+      },*/
       {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
+        link: "https://github.com/ei-flores",
       },
-      {
+      /*{
         text: "LeetCode",
         link: "https://leetcode.com/somawatvinay/",
-      },
+      },*/
     ],
   },
   {
@@ -227,6 +227,56 @@ export const footer = [
     data: [
       {
         text: "Enable Dark/Light Mode",
+        func: "enableDarkMode()",
+      },
+      /*{
+        text: "Print this page",
+        func: "window.print()",
+      },
+      {
+        text: "Clone this page",
+        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+      },*/
+    ],
+  },
+  {
+    label: "Social Profiles",
+    data: [
+      {
+        text: "Linkedin",
+        link: "https://www.linkedin.com/in/vinaysomawat/",
+      },
+      /*{
+        text: "Twitter",
+        link: "https://twitter.com/thesigmakid",
+      },
+      {
+        text: "Buy me a coffee",
+        link: "https://www.buymeacoffee.com/r194dME8y",
+      },*/
+    ],
+  },
+  {
+    label: "copyright-text",
+    data: [
+      //"Made with &hearts; by Vinay Somawat.",
+      //"&copy; No Copyrights. Feel free to use this template.",
+    ],
+  },
+];
+
+const gitUserName = "vinaysomawat";
+const mediumUserName = "vinaysomawat";
+
+export const URLs = {
+  mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
+};
+
+export const special = {
+  label: "Mode",
+    data: [
+      {
+        text: "Dark/Light Mode",
         func: "enableDarkMode()",
       },
       {
@@ -237,37 +287,6 @@ export const footer = [
         text: "Clone this page",
         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
       },
-    ],
-  },
-  {
-    label: "Social Profiles",
-    data: [
-      {
-        text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
-      },
-      {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
-    ],
-  },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
-  },
-];
+    ]
 
-const gitUserName = "vinaysomawat";
-const mediumUserName = "vinaysomawat";
-
-export const URLs = {
-  mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
 };
