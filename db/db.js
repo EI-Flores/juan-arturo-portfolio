@@ -17,7 +17,7 @@ export const skills = [
     title: "Frameworks/Libraries",
     skillName: "DJango, Pandas, Numpy, Scikit-Learn",
     color: "6",
-    percentage: "90",
+    percentage: "70",
   },
   {
     title: "Design",
