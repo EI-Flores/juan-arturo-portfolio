@@ -46,14 +46,23 @@ async function fetchBlogsFromMedium(url) {
  * @returns {void}
  */
 
-function populateBio(items, id) {
-  const bioTag = document.getElementById(id);
-  items.forEach((bioItem) => {
-    const p = getElement("p", null);
-    p.innerHTML = bioItem;
-    bioTag.append(p);
-  });
+function populateBio(lang = "en") {
+  const container = document.getElementById("bio");
+  if (container && bio[lang]) {
+    container.innerHTML = bio[lang].map(p => `<p>${p}</p>`).join("");
+  }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const selector = document.getElementById("languageSelector");
+  let lang = selector?.value || "en";
+  populateBio(lang);
+
+  selector?.addEventListener("change", () => {
+    lang = selector.value;
+    populateBio(lang);
+  });
+});
 
 /**
  * Populates skills to the HTML page.
@@ -68,23 +77,34 @@ function populateBio(items, id) {
 
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
-  items.forEach(({ skillName, color, percentage }) => {
-    const h3 = getElement("h3", null);
-    h3.innerHTML = skillName;
+  const row = document.createElement("div");
+  row.className = "row";
 
-    const divProgress = getElement("div", "progress");
-    const divProgressBar = getElement("div", `progress-bar color-${color}`);
-    divProgressBar.style = `width: ${percentage}%`;
-    divProgress.append(divProgressBar);
+  items.forEach(({ title, skillName }) => {
+    const col = document.createElement("div");
+    col.className = "col-md-6";
 
-    const divProgressWrap = getElement("div", "progress-wrap");
-    divProgressWrap.append(h3, divProgress);
+    const block = document.createElement("div");
+    block.className = "skill-block";
 
-    const divAnimateBox = getElement("div", "col-md-6 animate-box");
-    divAnimateBox.append(divProgressWrap);
+    const heading = document.createElement("h4");
+    heading.textContent = title;
 
-    skillsTag.append(divAnimateBox);
+    const list = document.createElement("ul");
+    list.className = "list-unstyled";
+
+    skillName.split(",").forEach(skill => {
+      const item = document.createElement("li");
+      item.textContent = skill.trim();
+      list.appendChild(item);
+    });
+
+    block.append(heading, list);
+    col.appendChild(block);
+    row.appendChild(col);
   });
+
+  skillsTag.appendChild(row);
 }
 
 /**
