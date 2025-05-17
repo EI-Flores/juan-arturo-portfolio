@@ -31,13 +31,15 @@ Puedes visitar el portafolio en:
 
 ## 📁 Estructura del Proyecto
 
-├── db/ # Datos en JS (bio, skills, educación, etc.)
+```text
+├── db/ # Datos en JS (bio, skills, educación, etc.),
 ├── js/ # Scripts de interacción (población dinámica, temas, idiomas)
 ├── css/ # Estilos personalizados
 ├── images/ # Recursos visuales
 ├── index.html # Página principal del portafolio
 └── projects/ # Subpáginas para proyectos específicos
 
+```
 
 ## 📫 Contacto
 
