@@ -92,6 +92,19 @@
                </div>
             </nav>
          </aside>
+         <div class="text-center mt-3">
+            <button onclick="toggleTheme()" class="btn btn-sm btn-dark" aria-label="Cambiar tema">🌗 Tema</button>
+         </div>
+
+         <div class="text-center mt-2">
+            <select id="languageSelector" class="form-select form-select-sm" aria-label="Selector de idioma">
+               <option value="es">ES</option>
+               <option value="en">EN</option>
+               <option value="de">DE</option>
+            </select>
+         </div>
+
+
          <!--------------------[END] Side Bar---------------------------->
          <!--------------------[START] Main Page------------------------->
          <div id="colorlib-main">
@@ -102,7 +115,7 @@
                   <div class="row animate-box"
                        data-animate-effect="fadeInLeft">
                      <div class="about-desc">
-                        <h1>About</h1>
+                        <h1 data-i18n="about">About</h1>
                         <div id="bio">
                         </div>
                      </div>
@@ -323,6 +336,9 @@
    <script src="js/jquery.countTo.js"></script>
    <!-- MAIN JS -->
    <script src="js/main.js"></script>
+   <!-- lang.js -->
+   <script src="js/lang.js"></script>
+
 </body>
 
 </html>
