@@ -14,10 +14,23 @@
 	box-sizing: border-box;
 }
 
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
+body.light-mode {
+	background-color: #fff;
+	color: #000;
+}
+
+.body.dark-mode {
+	background-color: #121212;
+	color: #eee;
+}
+body.dark-mode a {
+	color: #90caf9;
+}
+body.dark-mode .navbar,
+body.dark-mode .colorlib-aside {
+	background-color: #1e1e1e;
+}
+
 
 /* =======================================================
 *
@@ -2306,5 +2319,23 @@ span {
   button[type="submit"]:hover {
 	background-color: #3e8e41;
   }
-  
-  
+
+.skill-block {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.03);
+	border-radius: 8px;
+}
+.skill-block h4 {
+	margin-bottom: 0.5rem;
+}
+.skill-block ul li {
+	padding-left: 1em;
+	position: relative;
+}
+.skill-block ul li::before {
+	content: "▹";
+	position: absolute;
+	left: 0;
+	color: #f9bf3f;
+}
