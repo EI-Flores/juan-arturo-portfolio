@@ -1,10 +1,27 @@
-export const bio = [
-  "Hello there &#128075;",
-  "I'm Juan Arturo, I have a master's degree in Applied Computing with experience in the use of Python and User Experience. I have a passion for all technological things and I consider myself a curious and enthusiastic developer.",
-  "Besides writing code, I love to read, listen to music, and cook. ",
-  "As a lifelong learner, I'm always for the seek of new knowledge and experiences to broaden my perspective and enhance my skills.",
-  "Thanks for taking the time to learn a little about me!",
-];
+export const bio = {
+  en: [
+    "Hello there 👋",
+    "I'm Juan Arturo, I have a master's degree in Applied Computing...",
+    "Besides writing code, I love to read, listen to music, and cook.",
+    "As a lifelong learner, I'm always seeking new knowledge...",
+    "Thanks for taking the time to learn a little about me!"
+  ],
+  es: [
+    "Hola 👋",
+    "Soy Juan Arturo, tengo una maestría en Cómputo Aplicado...",
+    "Además de programar, me encanta leer, escuchar música y cocinar.",
+    "Como aprendiz de por vida, siempre estoy buscando nuevo conocimiento...",
+    "¡Gracias por tomarte el tiempo para conocerme!"
+  ],
+  de: [
+    "Hallo 👋",
+    "Ich bin Juan Arturo, ich habe einen Master in Angewandter Informatik...",
+    "Neben dem Programmieren lese ich gerne, höre Musik und koche.",
+    "Als lebenslanger Lerner suche ich ständig nach neuem Wissen...",
+    "Danke, dass Sie sich die Zeit genommen haben, mich kennenzulernen!"
+  ]
+};
+
 
 export const skills = [
   {
@@ -15,7 +32,7 @@ export const skills = [
   },
   {
     title: "Frameworks/Libraries",
-    skillName: "DJango, Pandas, Numpy, Scikit-Learn",
+    skillName: "React, Expo, Spring Boot, Pandas, Numpy, Scikit-Learn",
     color: "6",
     percentage: "70",
   },
@@ -27,13 +44,13 @@ export const skills = [
   },
   {
     title: "Version Control",
-    skillName: "GitHub, Git",
+    skillName: "Gitea, Gitlab, GitHub, Git",
     color: "7",
     percentage: "85",
   },
   {
-    title: "Editor",
-    skillName: "VS Code, PyCharm",
+    title: "IDE",
+    skillName: "VS Code, PyCharm, IntelliJ, WebStorm",
     color: "6",
     percentage: "90",
   },
