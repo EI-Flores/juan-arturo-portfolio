@@ -1,4 +1,4 @@
-# Portafolio Web de Juan Arturo Flores
+# Portafolio Web de Mestre Flores
 
 Este es el repositorio oficial del portafolio profesional de **Juan Arturo Flores**, ingeniero en electrónica con maestría en cómputo aplicado y experiencia en inteligencia artificial, visión por computadora, ciberseguridad y desarrollo fullstack.
 
